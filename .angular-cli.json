@@ -9,7 +9,10 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "manifest.json",
+        "android-chrome-192x192.png",
+        "manifest.webapp"
       ],
       "index": "index.html",
       "main": "main.ts",

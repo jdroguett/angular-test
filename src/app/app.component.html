@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<h1>{{title}}</h1>
+<h2>My favorite hero is: {{myHero.name}}</h2>
+<p>Heroes:</p>
+<table border="1">
+  <tr  *ngFor="let hero of heroes">
+  <td>
+    {{ hero.name }}
+  </td>
+  </tr>
+</table>
+
+<p *ngIf="heroes.length > 3">There are many heroes!</p>
+
+
+<click-me></click-me>
